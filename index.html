@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap页面</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- 导航 -->
+    <!-- navbar-fixed-top固定在顶部 -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- 小屏幕导航按钮和logo -->
+            <div class="navbar-header">
+                <!-- .navbar-toggle屏幕足够小的时候显示三条杆。 -->
+                <!-- data-toggle="collapse"绑定点击触发事件 data-target=".navbar-collapse"触发元素就是下面的对应类名 -->
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <!-- 小屏幕导航按钮三条杆 -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- .navbar-brand导航条缩小也不会消失 -->
+                <a href="index.html" class="navbar-brand">前端学习</a>
+            </div>
+            <!-- 导航 -->
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#bbs">论坛</a></li>
+                    <li><a href="#html5">前端开发</a></li>
+                    <li><a href="#course">前端技术</a></li>
+                    <li><a href="#app">自适应</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section id="home">
+        <div class="mask">
+            <div class="container">
+                <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <h1>bootstrap页面展示</h1>
+                        <p>本套课程适用于：1.WEB开发人员；2.网站维护人员、管理人员</p>
+                        <p>培训技能的目标：使用bootstrap框架快速构建响应式网页，颠覆传统WEB前端！</p>
+                        <img src="./img/php.jpg" alt="PHP" class="img-responsive">
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- bbs -->
+    <section id="bbs">
+        <div class="container">
+            <div class="row wow fadeInUp animated" data-wow-duration=".5s">
+                <div class="col-sm-4 col-md-4">
+                    <img src="./img/a.png" alt="Android开发" class="img-responsive">
+                    <h3>Android开发</h3>
+                    <p>Android开发技术交流、问题求助、实战分享</p>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <img src="./img/i.png" alt="Android开发" class="img-responsive">
+                    <h3>iOS开发</h3>
+                    <p>iOS开发技术交流，海量iOS实战干货分享</p>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <img src="./img/b.png" alt="Android开发" class="img-responsive">
+                    <h3>嵌入式开发</h3>
+                    <p>底层嵌入式开发、实战案例等技术交流讨论</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- html5 -->
+    <section id="html5">
+        <div class="container">
+            <div class="col-md-6 wow fadeInLeft">
+                <h2>HTML5前端开发</h2>
+                <p>一线资深前端开发工程师倾情打造！助你完成普通程序员到优秀工程师的华丽升级！</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>使用HTML5与CSS3技术轻松实现设备自适应展示。</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>清晰明了的语义代码结构，更高的可读性、更利于页面维护的。</p>
+            </div>
+            <div class="col-md-6 wow fadeInRight">
+                <img src="./img/html5.jpg" alt="html5" class="img-responsive">
+            </div>
+        </div>
+    </section>
+    <!-- bootstrap -->
+    <section id="bootstrap">
+        <div class="container wow fadeInUp">
+            <div class="col-md-6">
+                <img src="./img/Bootstrap.jpg" alt="html5" class="img-responsive">
+            </div>
+            <div class="col-md-6">
+                <h2>bootstrap实战视频教程</h2>
+                <p>Bootstrap 是最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>你的网站和应用能在 Bootstrap 的帮助下通过同一份代码快速、有效适配手机、平板、PC 设备。</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>Bootstrap 提供了全面、美观的文档。你能在这里找到关于 HTML 元素、HTML 和 CSS 组件、jQuery 插件方面的所有详细文档。</p>
+            </div>
+        </div>
+    </section>
+    <!-- course -->
+    <section id="course">
+        <div class="container wow fadeIn" data-wow-delay=".6s">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2 class="text-bold">前端技术</h2>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item-box">
+                    <img src="./img/git.png" alt="swift" class="img-responsive">
+                    <a href="#" class="btn btn-primary">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item-box">
+                    <img src="./img/gulp.png" alt="swift" class="img-responsive">
+                    <a href="#" class="btn btn-primary">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item-box">
+                    <img src="./img/less.png" alt="swift" class="img-responsive">
+                    <a href="#" class="btn btn-primary">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item-box">
+                    <img src="./img/sass.png" alt="swift" class="img-responsive">
+                    <a href="#" class="btn btn-primary">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item-box">
+                    <img src="./img/npm.png" alt="swift" class="img-responsive">
+                    <a href="#" class="btn btn-primary">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item-box">
+                    <img src="./img/unslider.png" alt="swift" class="img-responsive">
+                    <a href="#" class="btn btn-primary">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item-box">
+                    <img src="./img/react.png" alt="swift" class="img-responsive">
+                    <a href="#" class="btn btn-primary">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item-box">
+                    <img src="./img/vue.png" alt="swift" class="img-responsive">
+                    <a href="#" class="btn btn-primary">加入学习</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- app -->
+    <section id="app">
+        <div class="container">
+            <div class="row wow fadeInUp">
+                <div class="col-md-6">
+                    <h2>Bootstrap自适应页面</h2>
+                    <p>你的网站和应用能在 Bootstrap 的帮助下通过同一份代码快速、有效适配手机、平板、PC 设备，这一切都是 CSS 媒体查询（Media Query）的功劳。</p>
+                    <button class="btn btn-primary">
+                        <span class="glyphicon glyphicon-ok"></span>
+                         PC端
+                    </button>
+                    <button class="btn btn-primary">
+                        <span class="glyphicon glyphicon-ok"></span>
+                         移动端
+                    </button>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/devices.png" class="img-responsive" alt="app">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="mask">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 wow fadeInLeft">
+                        <h2><span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp联系方式</h2>
+                        <p>你是Bootstrap粉丝吗？你正在用Bootstrap做开发吗？你开发的网站是 Powered By Bootstrap 的吗？那就把你的网站show出来吧！</p>
+                        <p><span class="glyphicon glyphicon-home"></span> 地址：广州市XXXXXXXXXXX</p>
+                        <p><span class="glyphicon glyphicon-phone"></span> 联系电话：000-123456789</p>
+                        <p><span class="glyphicon glyphicon-envelope"></span> 邮箱:xx@xxx.com</p>
+                    </div>
+                    <div class="col-md-6 wow fadeInRight">
+                        <form action="#">
+                            <div class="col-md-6">
+                                <input type="text" name="myName" class="form-control"  placeholder="您的名字">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="myEmail" class="form-control"  placeholder="您的邮箱">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" name="title" class="form-control" placeholder="标题">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="textarea" cols="30" class="form-control" rows="4" placeholder="留言内容"></textarea>
+                            </div>
+                            <div class="col-md-8">
+                                <input type="submit" value="提交" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright © 2017-2018 www.henlow.top</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-3.1.1.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.singlePageNav.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        $(function(){
+            // 导航锚链接动画效果插件引用 .nav就是导航栏元素
+            $('.nav').singlePageNav({
+                offset: 70 // 偏移高度就是导航栏的高度
+            });
+            // 小屏幕导航栏点击后关闭菜单
+            $('.navbar-collapse a').click(function(){
+                // bootstrap中的方法collapse('hide')折叠隐藏
+                $('.navbar-collapse').collapse('hide');
+            });
+            // 滚动到某屏时的元素动画效果animate.css+wow.js
+            new WOW().init();
+        });
+    </script>
+</body>
+
+</html>
